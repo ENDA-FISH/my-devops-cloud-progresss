@@ -12,6 +12,6 @@ COPY index.html /usr/share/nginx/html/
 COPY images/ /usr/share/nginx/images/
 
 # Expose port 5000 for web traffic
-EXPOSE 5000
+EXPOSE 9000
 
 # Nginx automatically starts when the container runs
