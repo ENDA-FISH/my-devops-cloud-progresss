@@ -9,7 +9,6 @@ on:
 env:
   REGISTRY: docker.io
   IMAGE_NAME: dyimbuh
-  DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
 
 jobs:
   build-and-push:
