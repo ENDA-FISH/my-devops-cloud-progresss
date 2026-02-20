@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: dyimbuh
+  IMAGE_NAME: sharon
 
 jobs:
   build-and-push:
